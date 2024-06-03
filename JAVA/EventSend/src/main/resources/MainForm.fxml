@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="87.0" prefWidth="187.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hanwei.MainForm">
+   <children>
+      <Button fx:id="button_ok" layoutX="78.0" layoutY="60.0" mnemonicParsing="false" onAction="#buttonOkOnAction" text="确定" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="65.0" />
+      <Button fx:id="button_cancel" layoutX="129.0" layoutY="60.0" mnemonicParsing="false" onAction="#buttonCancelOnAction" text="取消" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>
